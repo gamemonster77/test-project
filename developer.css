@@ -1,0 +1,105 @@
+.nav{
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgba(37, 37, 37);
+}
+
+.nav-right-items{
+    color: white;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item{
+    font-size: 16px;
+    margin-right: 20px;
+    color: white;
+}
+
+.name{
+    margin-left: 20px;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    height: 100px;
+    width: 2000;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-item{
+    padding: 0.1cm 0cm 0cm;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.dd{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    height: 400px;
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.taxt{
+    margin-top: 150px;
+}
+
+.img{
+    margin-left: 6cm;
+    margin-top: 100px;
+}
+
+.nick{
+    margin-left: 3cm;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title{
+    margin-left: 3cm;
+}
+
+.empty{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.team{
+    text-align: center;
+    margin-left: 3cm;
+}
+
+.price-item-button{
+    margin-left: 3cm;
+    border-radius: 50px;
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: rgba(37, 37, 37);
+    background-color: white;
+    border-color: rgba(37, 37, 37);
+}
+
+.price-item-button:hover{
+    box-shadow: none;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    transition: 0.3s;
+}
+
+.price-item-button:focus{
+    outline: none;
+}

@@ -1,0 +1,89 @@
+.nav{
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgba(37, 37, 37);
+}
+
+.nav-right-items{
+    color: white;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item{
+    font-size: 16px;
+    margin-right: 20px;
+    color: white;
+}
+
+.name{
+    margin-left: 20px;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    height: 100px;
+    width: 2000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-item{
+    padding: 0.1cm 0cm 0cm;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.bot{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    height: 400px;
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.invited{
+    border-radius: 50px;
+    margin-top: 15px;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    background-color: white;
+    border-color: rgba(37, 37, 37);
+    color: rgba(37, 37, 37);
+    transition: 0.3s;
+}
+
+.invited:hover{
+    box-shadow: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    transition: 0.3s;
+}
+
+.invited:focus{
+    outline: none;
+}
+
+.taxt{
+    margin-left: 1cm;
+    margin-top: 3cm;
+}
+
+.img{
+    margin-left: 1cm;
+    margin-top: 1.3cm;
+}
+
+.Name{
+    font-size: 30px;
+}

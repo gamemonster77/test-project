@@ -1,0 +1,126 @@
+.nav{
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgba(37, 37, 37);
+}
+
+.nav-right-items{
+    color: white;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item{
+    font-size: 16px;
+    margin-right: 20px;
+    color: white;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main{
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 500px;
+}
+
+.prices{
+    display: flex;
+}
+
+.prices-item{
+    margin-top: 1000;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.empty{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.price-item-title{
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(37, 37, 37);
+    text-align: center;
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid black;
+}
+
+.price-item-detail{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.price-button{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.price-item-button{
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: rgba(37, 37, 37);
+    background-color: white;
+    border-color: rgba(37, 37, 37);
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    height: 100px;
+    width: 2000;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-item{
+    padding: 0.1cm 0cm 0cm;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.price-item-button:hover{
+    box-shadow: none;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    transition: 0.3s;
+}
+
+.price-item-button:focus{
+    outline: none;
+}

@@ -1,0 +1,76 @@
+.nav{
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgba(37, 37, 37);
+}
+
+.nav-right-items{
+    color: white;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item{
+    font-size: 16px;
+    margin-right: 20px;
+    color: white;
+}
+
+.name{
+    margin-left: 20px;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    height: 100px;
+    width: 2000;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-item{
+    padding: 0.1cm 0cm 0cm;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.team-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.empty{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.team-button{
+    margin-top: 15px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    color: rgb(37, 37, 37);
+    border-radius: 50px;
+    transition: 0.3s;
+    border-color: rgb(37, 37, 37);
+}
+
+.team-button:hover{
+    margin-top: 15px;
+    background-color: rgb(37, 37, 37);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.team-button:focus{
+    outline: none;
+}
